@@ -110,47 +110,13 @@ Játékon belül:
  Ha egy játékos több egymást követő meccs során ismeretlen okból elhagyja a meccset, akkor tiltást kap. Minél több alkalommal ismétlődik a meccsek elhagyása a tiltások ellenére a játékos egyere több ideig lesz tiltva és egy pontot elérve a fiókja véglegesen törlődik. Az első ilyen alkalommal, amikor egy játékos tiltást érdemel a rendszer 10 percre tiltja le és ennek időtartama minden alkalommal 10 perccel növekszik, amíg egy órás eltiltást nem kap ajátékos. Ezután egy napra, majd egy hétre, végül pedig egy hónapra is kaphat kitiltást, és ennek végereményeképpen a következő esetben perma bant kap. Ha egy játékos már kapott eltiltást, viszont ha ezt követően fél évig nem tesz semmi hasonló megrovást érdemlő dolgot, akkor a rendszer automatikusan leveszi az eddig rárakott tiltások hosszát és a felhasználó újból csak 10 percet kaphat egy tiltás alkalmával.
  --------------------------------------------------------------------------------------------------------------------------------------
 8. Adatbázis terv
-A 0.1-es verzióban 5 táblával tudunk dolgozni. Ez még csak egy alap adatbázis terv a programhoz. Van egy User, Karakter, Skin, Item és Képesség osztályunk. Az implementációs tervben, illetve az UML ábra 0.1-es verzióban látható ezek pontos kidolgozása. Jelenleg még csak a karakter táblát tudjuk összekapcsolni a skin és a képességek osztállyal.
+ A 0.1-es verzióban 5 táblával tudunk dolgozni. Ez még csak egy alap adatbázis terv a programhoz. Van egy User, Karakter, Skin, Item és Képesség osztályunk. Az implementációs tervben, illetve az UML ábra 0.1-es verzióban látható ezek pontos kidolgozása. Jelenleg még csak a karakter táblát tudjuk összekapcsolni a skin és a képességek osztállyal.
  --------------------------------------------------------------------------------------------------------------------------------------
 9. Implementációs terv
-
-USER: Osztály
-Név: string
-Jelszó: string
-Profilkép: Kép
-BirtokoltKarakterek: Karakter Lista
-XP: int
-Gold: int
-
-KARAKTER: Osztály
-Képesség: Képesség Lista
-Név: string
-Kép: Kép
-Életpont: double
-Mana: double
-Páncél: double
-KritikusEsély: double
-Ár: int
-
-SKIN: Osztály
-Karakter: Karakter
-Név: string
-Kép: Kép
-Életpont: double
-Mana: double
-Páncél: double
-KritikusEsély: double
-Ár: int
-
-ITEM: Osztály
-Ikon: Kép
-Ár: int
-
-KÉPESSÉG: Osztály
-Ikon: Kép
-Manahasználat: double
-ÚjratöltésiIdő: int
-
+ A programot 3 fő részre osztjuk. Ezen részek összefüggésben vannak egymással, de egymástól mégis függetlenek, hogy ne kelljen egy programkódot sokezer soron keresztül leírni.
+ Az első rész a bejelentkezési felület nevet kapta. Itt egy regisztrációs menüt és egy bejelentkezési felületet kell megfelelően működtetni. Ehhez egy külön adatbázisra is szükségünk lesz, ahol megfelelő rendszerezés mellett, biztonságosan el lehet tárolni az adatokat.
+ A második rész a főprogram. Itt egy másik adatbázisra lesz szükségünk. Ebben tároljuk az egyes felhasználókhoz tartozó, a játékon belül lényeges adatokat. A felhasználónév ugyanaz, mint a bejelentkezéskor használt felhasználónév. Így kapcsolatban állnak egymással.
+ A harmadik lényeges rész a játékfelület. Ez egy komplikáltabb programrész. Itt a figyelembe kell venni a vásárlási folyamatok mellett, hogy a vásárolt itemek rögtön használatba kerülnek és ráépülnek a karakterek statjaira. Ahogy azt sem szabad elfelejteni, hogy folyamatosak az események. A képességek által csökken és növekszik a karakter életereje és pajzsa.
  --------------------------------------------------------------------------------------------------------------------------------------
 10. Tesztterv
  - bejelentkezési teszt: A bejelentkezés folyamán fontos, hogy egy felhasználónév csak egyszer szerepeljen a rendszerben. Egy bejelentkezés csak akkor sikeres, ha a regisztrált felhasználónév és jelszó kombinációt helyesen írjuk be. Csak így lehessen belépni a programba.
