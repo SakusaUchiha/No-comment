@@ -1,99 +1,99 @@
-0. Vezetõi összefoglaló
- A projekt célja egy olyan játék megvalósítása, amelyben a felhasználók egymás ellen tudnak harcolni, ezáltal tapasztalatpontokat és goldot gyûjtve fejlõdnek. A játék a manapság széles körben elterjedt telefonos illetve gépes játékok vegyítékébõl épül fel. Mivel a fiatal célközönséget veszi alapul, ezért próbál megfelelni azon játékosok elvárásainak és valami egészen újat mutatni, amivel órákon át képesek versengeni.
- Mivel a játékban több karaktert, skint is rendelkezésre áll a játékosoknak megszerezni, ezért nem lehet rövid idõn belül megunni, feljõdni meg folyamatosan lehet.
+0. VezetÅ‘i Ã¶sszefoglalÃ³
+ A projekt cÃ©lja egy olyan jÃ¡tÃ©k megvalÃ³sÃ­tÃ¡sa, amelyben a felhasznÃ¡lÃ³k egymÃ¡s ellen tudnak harcolni, ezÃ¡ltal tapasztalatpontokat Ã©s goldot gyÅ±jtve fejlÅ‘dnek. A jÃ¡tÃ©k a manapsÃ¡g szÃ©les kÃ¶rben elterjedt telefonos illetve gÃ©pes jÃ¡tÃ©kok vegyÃ­tÃ©kÃ©bÅ‘l Ã©pÃ¼l fel. Mivel a fiatal cÃ©lkÃ¶zÃ¶nsÃ©get veszi alapul, ezÃ©rt prÃ³bÃ¡l megfelelni azon jÃ¡tÃ©kosok elvÃ¡rÃ¡sainak Ã©s valami egÃ©szen Ãºjat mutatni, amivel Ã³rÃ¡kon Ã¡t kÃ©pesek versengeni.
+ Mivel a jÃ¡tÃ©kban tÃ¶bb karaktert, skint is rendelkezÃ©sre Ã¡ll a jÃ¡tÃ©kosoknak megszerezni, ezÃ©rt nem lehet rÃ¶vid idÅ‘n belÃ¼l megunni, feljÅ‘dni meg folyamatosan lehet.
  --------------------------------------------------------------------------------------------------------------------------------------
-1. A rendszer céljai és nem céljai
- A rendszer célja egy olyan játék megvalósítása, amelyben a játékosok saját felhasználói fiókjukon keresztül tudnak belépni a játékba. A profiljukat saját maguk irányíthatják, változtathatják a profilképüket, önállóan, meccseket játszva jutnak tapasztalatpontokhoz és goldhoz, amivel növelhetik szintjüket a játékban. 50 különbözõ karakter közül választhatják ki a nekik legszimpatikusabbakat, legkézenfekvõbbeket, amelyek oldalán indulnak majd a harcokba. Kitapasztalhatják a stratágia és küzdelem örömeit, ahogy a vereség árnyoldalait is.
- Ezen versenysorozaton keresztül tapasztalatot szereznek és fejlõdik a koncentrációs, illetve szellemi képességeik. A meccsek végeztével, ugyanis a vesztes is szerez jutalmat, így meg kell tanulni a keveset is értékelni.
- A játék önmagában nem csak a szellemi képességek növelését veszi alapul, hanem a kapcsolatépítésre is törekedik, hiszen a játékosok egymás ellen is rendezhetnek meccseket, amivel egymás képességeit felmérhetik és idõt töltenek a másik megismerésével.
+1. A rendszer cÃ©ljai Ã©s nem cÃ©ljai
+ A rendszer cÃ©lja egy olyan jÃ¡tÃ©k megvalÃ³sÃ­tÃ¡sa, amelyben a jÃ¡tÃ©kosok sajÃ¡t felhasznÃ¡lÃ³i fiÃ³kjukon keresztÃ¼l tudnak belÃ©pni a jÃ¡tÃ©kba. A profiljukat sajÃ¡t maguk irÃ¡nyÃ­thatjÃ¡k, vÃ¡ltoztathatjÃ¡k a profilkÃ©pÃ¼ket, Ã¶nÃ¡llÃ³an, meccseket jÃ¡tszva jutnak tapasztalatpontokhoz Ã©s goldhoz, amivel nÃ¶velhetik szintjÃ¼ket a jÃ¡tÃ©kban. 50 kÃ¼lÃ¶nbÃ¶zÅ‘ karakter kÃ¶zÃ¼l vÃ¡laszthatjÃ¡k ki a nekik legszimpatikusabbakat, legkÃ©zenfekvÅ‘bbeket, amelyek oldalÃ¡n indulnak majd a harcokba. KitapasztalhatjÃ¡k a stratÃ¡gia Ã©s kÃ¼zdelem Ã¶rÃ¶meit, ahogy a veresÃ©g Ã¡rnyoldalait is.
+ Ezen versenysorozaton keresztÃ¼l tapasztalatot szereznek Ã©s fejlÅ‘dik a koncentrÃ¡ciÃ³s, illetve szellemi kÃ©pessÃ©geik. A meccsek vÃ©geztÃ©vel, ugyanis a vesztes is szerez jutalmat, Ã­gy meg kell tanulni a keveset is Ã©rtÃ©kelni.
+ A jÃ¡tÃ©k Ã¶nmagÃ¡ban nem csak a szellemi kÃ©pessÃ©gek nÃ¶velÃ©sÃ©t veszi alapul, hanem a kapcsolatÃ©pÃ­tÃ©sre is tÃ¶rekedik, hiszen a jÃ¡tÃ©kosok egymÃ¡s ellen is rendezhetnek meccseket, amivel egymÃ¡s kÃ©pessÃ©geit felmÃ©rhetik Ã©s idÅ‘t tÃ¶ltenek a mÃ¡sik megismerÃ©sÃ©vel.
  --------------------------------------------------------------------------------------------------------------------------------------
-2. Jelenlegi helyzet leírása
- Jelenleg zajlik a funkcionális specifikáció kidolgozása, illetve a dizájn tervezése is folyamatban van. A profilképek elsõ vázlatai elkészültek és a karakterek kidolgozásai is munkafolyamatban vannak.
+2. Jelenlegi helyzet leÃ­rÃ¡sa
+ A program a felhasznÃ¡lÃ³k szÃ¡mÃ¡ra a Play ÃruhÃ¡zon keresztÃ¼l Ã©rhetÅ‘ el. Mindenki szÃ¡mÃ¡ra nyÃ­tl Ã©s ingyenes a letÃ¶ltÃ©se Ã©s a hasznÃ¡lata. Bizonyos funkciÃ³kÃ©rt a kÃ©sÅ‘bbiekben lehetÅ‘sÃ©g lesz kÃ©szpÃ©nzzel fizetni. Ezek funkciÃ³knak a kidolgozÃ¡sa azonban folyamatban van, pontos tervek mÃ©g nincsenek meghatÃ¡rozva.
  --------------------------------------------------------------------------------------------------------------------------------------
-3. Vágyálomrendszer leírása
- Egy olyan program megvalósítása androidon és webes felületen, amelyben a felhasználó karaktert választhat magának, hogy egymás ellen harcoljanak.
-A felhasználó felhasználónév és jelszó segítségével jelentkezhet be a játékba, ahol minden játékos rendelkezik szinttel és golddal.
-Elsõ bejelentkezés alkalmával random 5 karakter közül kettõt lehet választani. Ezt a két karaktert lehet használni, de késõbb a harcok folyamán szerzett goldból lehet többet vásárolni.
-A karaktereknek van életereje és manája, illetve rendelkeznek 4 alap képességgel. Ezenkívül még skineket is lehet vásárolni, amelyek megváltoztatják a karakterek alap statját.
-A harc során körönként kapsz goldot. Az elsõ lépésben skilleket kell használni.
-A harcok során körönként dönthetsz skillek/item vétel/kimarad mellett.
--Skillek esetén választhatsz a skillek közül. A skilleknek van cooldown-ja, az elsõt minden körben lehet használni, a másodikat minden 2.körben és igy tovább. Az itemekbõl származó skilleket minden 3. körben lehet újra felhasználni.
--Az item vétel esetén kimaradsz a körbõl, de kapsz itemet. Két fajta item lesz passzív/aktív. A passzív növeli a statot, az atkív pedig egy újabb skillt ad.
--Ha nem akarsz semmit sem használni, akkor lehet választani a "Kimaradsz a körbõl" lehetõséget.
-A harcok addig tartanak, amíg az egyik karakter meg nem hal, vagy fel nem adja az egyik játékos a meccset. A gyõztes játékos goldot és xp-t kap, míg a vesztes csak xp-t szerez.
+3. VÃ¡gyÃ¡lomrendszer leÃ­rÃ¡sa
+ Egy olyan program megvalÃ³sÃ­tÃ¡sa androidon Ã©s webes felÃ¼leten, amelyben a felhasznÃ¡lÃ³ karaktert vÃ¡laszthat magÃ¡nak, hogy egymÃ¡s ellen harcoljanak.
+A felhasznÃ¡lÃ³ felhasznÃ¡lÃ³nÃ©v Ã©s jelszÃ³ segÃ­tsÃ©gÃ©vel jelentkezhet be a jÃ¡tÃ©kba, ahol minden jÃ¡tÃ©kos rendelkezik szinttel Ã©s golddal.
+ElsÅ‘ bejelentkezÃ©s alkalmÃ¡val random 5 karakter kÃ¶zÃ¼l kettÅ‘t lehet vÃ¡lasztani. Ezt a kÃ©t karaktert lehet hasznÃ¡lni, de kÃ©sÅ‘bb a harcok folyamÃ¡n szerzett goldbÃ³l lehet tÃ¶bbet vÃ¡sÃ¡rolni.
+A karaktereknek van Ã©letereje Ã©s manÃ¡ja, illetve rendelkeznek 4 alap kÃ©pessÃ©ggel. EzenkÃ­vÃ¼l mÃ©g skineket is lehet vÃ¡sÃ¡rolni, amelyek megvÃ¡ltoztatjÃ¡k a karakterek alap statjÃ¡t.
+A harc sorÃ¡n kÃ¶rÃ¶nkÃ©nt kapsz goldot. Az elsÅ‘ lÃ©pÃ©sben skilleket kell hasznÃ¡lni.
+A harcok sorÃ¡n kÃ¶rÃ¶nkÃ©nt dÃ¶nthetsz skillek/item vÃ©tel/kimarad mellett.
+-Skillek esetÃ©n vÃ¡laszthatsz a skillek kÃ¶zÃ¼l. A skilleknek van cooldown-ja, az elsÅ‘t minden kÃ¶rben lehet hasznÃ¡lni, a mÃ¡sodikat minden 2.kÃ¶rben Ã©s igy tovÃ¡bb. Az itemekbÅ‘l szÃ¡rmazÃ³ skilleket minden 3. kÃ¶rben lehet Ãºjra felhasznÃ¡lni.
+-Az item vÃ©tel esetÃ©n kimaradsz a kÃ¶rbÅ‘l, de kapsz itemet. KÃ©t fajta item lesz passzÃ­v/aktÃ­v. A passzÃ­v nÃ¶veli a statot, az atkÃ­v pedig egy Ãºjabb skillt ad.
+-Ha nem akarsz semmit sem hasznÃ¡lni, akkor lehet vÃ¡lasztani a "Kimaradsz a kÃ¶rbÅ‘l" lehetÅ‘sÃ©get.
+A harcok addig tartanak, amÃ­g az egyik karakter meg nem hal, vagy fel nem adja az egyik jÃ¡tÃ©kos a meccset. A gyÅ‘ztes jÃ¡tÃ©kos goldot Ã©s xp-t kap, mÃ­g a vesztes csak xp-t szerez.
  --------------------------------------------------------------------------------------------------------------------------------------
-4.  A rendszerre vonatkozó külsõ megszorítások
-4.1. Szerzõi jogszabályok:
-A törvény szerint az eredeti számítógépes program az azt létrehozó személy vagy vállalat szellemi tulajdona. A számítógépes programokat szerzõi jogi törvény védi, amely kimondja, hogy az ilyen mûvek engedély nélküli másolása törvénybe ütközõ cselekedet. (Magyarországon a szerzõi jogokat az 1999. évi LXXVI. törvény szabályozza)
-Licenszerzõdés(amennyiben van)
-4.2. Adatvédelmi jogszabályok:
-AZ EURÓPAI PARLAMENT ÉS A TANÁCS (EU) 2016/679 RENDELETE (2016. április 27.) a természetes személyeknek a személyes adatok kezelése tekintetében történõ védelmérõl és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK rendelet hatályon kívül helyezésérõl (általános adatvédelmi rendelet)
-évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról ( Infotv.)
-4.3 Felhasználálási feltételek:
-A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, mikrofon) való hozzáférést biztosítani kell. Ezeket bizalmasan kezeljük, harmadik félhez nem juttatjuk el, semmilyen formában, másnak hozzáférést nem biztosítunk.
+4.  A rendszerre vonatkozÃ³ kÃ¼lsÅ‘ megszorÃ­tÃ¡sok
+4.1. SzerzÅ‘i jogszabÃ¡lyok:
+A tÃ¶rvÃ©ny szerint az eredeti szÃ¡mÃ­tÃ³gÃ©pes program az azt lÃ©trehozÃ³ szemÃ©ly vagy vÃ¡llalat szellemi tulajdona. A szÃ¡mÃ­tÃ³gÃ©pes programokat szerzÅ‘i jogi tÃ¶rvÃ©ny vÃ©di, amely kimondja, hogy az ilyen mÅ±vek engedÃ©ly nÃ©lkÃ¼li mÃ¡solÃ¡sa tÃ¶rvÃ©nybe Ã¼tkÃ¶zÅ‘ cselekedet. (MagyarorszÃ¡gon a szerzÅ‘i jogokat az 1999. Ã©vi LXXVI. tÃ¶rvÃ©ny szabÃ¡lyozza)
+LicenszerzÅ‘dÃ©s(amennyiben van)
+4.2. AdatvÃ©delmi jogszabÃ¡lyok:
+AZ EURÃ“PAI PARLAMENT Ã‰S A TANÃCS (EU) 2016/679 RENDELETE (2016. Ã¡prilis 27.) a termÃ©szetes szemÃ©lyeknek a szemÃ©lyes adatok kezelÃ©se tekintetÃ©ben tÃ¶rtÃ©nÅ‘ vÃ©delmÃ©rÅ‘l Ã©s az ilyen adatok szabad Ã¡ramlÃ¡sÃ¡rÃ³l, valamint a 95/46/EK rendelet hatÃ¡lyon kÃ­vÃ¼l helyezÃ©sÃ©rÅ‘l (Ã¡ltalÃ¡nos adatvÃ©delmi rendelet)
+Ã©vi CXII. tÃ¶rvÃ©ny az informÃ¡ciÃ³s Ã¶nrendelkezÃ©si jogrÃ³l Ã©s az informÃ¡ciÃ³szabadsÃ¡grÃ³l ( Infotv.)
+4.3 FelhasznÃ¡lÃ¡lÃ¡si feltÃ©telek:
+A szÃ¡mÃ­tÃ³gÃ©pen lÃ©vÃ¶ fÃ¡jlokhoz, szÃ¡mÃ­tÃ³gÃ©p eszkÃ¶zeihez (pl.: kamera, mikrofon) valÃ³ hozzÃ¡fÃ©rÃ©st biztosÃ­tani kell. Ezeket bizalmasan kezeljÃ¼k, harmadik fÃ©lhez nem juttatjuk el, semmilyen formÃ¡ban, mÃ¡snak hozzÃ¡fÃ©rÃ©st nem biztosÃ­tunk.
  --------------------------------------------------------------------------------------------------------------------------------------
-5. Jelenlegi üzleti folyamatok modellje
- Egy olyan játék megalkotása, amelyet az emberek a mindennapokban tudnak használni, kikapcsolódás, unalomûzés céljából.
-	a) A játékosok a játékon belül szinteket tudnak lépni.
-	b) Karakterek és skineket tudnak vásárolni.
-	c) Saját felhasználói profillal rendelkeznek.
+5. Jelenlegi Ã¼zleti folyamatok modellje
+ Egy olyan jÃ¡tÃ©k megalkotÃ¡sa, amelyet az emberek a mindennapokban tudnak hasznÃ¡lni, kikapcsolÃ³dÃ¡s, unalomÅ±zÃ©s cÃ©ljÃ¡bÃ³l.
+	a) A jÃ¡tÃ©kosok a jÃ¡tÃ©kon belÃ¼l szinteket tudnak lÃ©pni.
+	b) Karakterek Ã©s skineket tudnak vÃ¡sÃ¡rolni.
+	c) SajÃ¡t felhasznÃ¡lÃ³i profillal rendelkeznek.
  --------------------------------------------------------------------------------------------------------------------------------------
-6. Igényelt üzleti folyamatok modellje
- Célunk egy olyan játék megalkotása, amelyet az emberek a mindennapokban tudnak használni, kikapcsolódás, unalomûzés vagy akár személyes kapcsolatok kialakításának céljából.
-	a) Célunk egy olyan játék megalkotása, amely pozitívan hat a gyerekek szellemi fejlõdésére.
-	b) A fiatal korosztály számára ambiciót adnak a megmérettetések.
-	c) A dolgozó korosztály számára kikapcsolódást nyújt.
-	d) Láthatóan nyomon lehet követni a játékosok profilján a fejlõdést.
-	e) A felhasználók kedvük szerint alakíthatják ki a felhasználói profiljukat.
-	f) Különbözõ emberekkel lehet megismerkedni.
-	g) A játék élménye összehozza a családokat.
-	h) Mindenki megtalálhatja benne azt, ami örömet okoz neki. 
-	i) Nincs megkülönböztetés. Mindenki önmagát adhatja.
-	j) Fejlõdik a felhasználók logikai és tagtikai érzékük.
-	k) A gyerekek kombinációs készségének fejlõdése is elõtérbe kerül.
-	l) Konfliktus kezelés céljából is hasznos.
+6. IgÃ©nyelt Ã¼zleti folyamatok modellje
+ CÃ©lunk egy olyan jÃ¡tÃ©k megalkotÃ¡sa, amelyet az emberek a mindennapokban tudnak hasznÃ¡lni, kikapcsolÃ³dÃ¡s, unalomÅ±zÃ©s vagy akÃ¡r szemÃ©lyes kapcsolatok kialakÃ­tÃ¡sÃ¡nak cÃ©ljÃ¡bÃ³l.
+	a) CÃ©lunk egy olyan jÃ¡tÃ©k megalkotÃ¡sa, amely pozitÃ­van hat a gyerekek szellemi fejlÅ‘dÃ©sÃ©re.
+	b) A fiatal korosztÃ¡ly szÃ¡mÃ¡ra ambiciÃ³t adnak a megmÃ©rettetÃ©sek.
+	c) A dolgozÃ³ korosztÃ¡ly szÃ¡mÃ¡ra kikapcsolÃ³dÃ¡st nyÃºjt.
+	d) LÃ¡thatÃ³an nyomon lehet kÃ¶vetni a jÃ¡tÃ©kosok profiljÃ¡n a fejlÅ‘dÃ©st.
+	e) A felhasznÃ¡lÃ³k kedvÃ¼k szerint alakÃ­thatjÃ¡k ki a felhasznÃ¡lÃ³i profiljukat.
+	f) KÃ¼lÃ¶nbÃ¶zÅ‘ emberekkel lehet megismerkedni.
+	g) A jÃ¡tÃ©k Ã©lmÃ©nye Ã¶sszehozza a csalÃ¡dokat.
+	h) Mindenki megtalÃ¡lhatja benne azt, ami Ã¶rÃ¶met okoz neki. 
+	i) Nincs megkÃ¼lÃ¶nbÃ¶ztetÃ©s. Mindenki Ã¶nmagÃ¡t adhatja.
+	j) FejlÅ‘dik a felhasznÃ¡lÃ³k logikai Ã©s tagtikai Ã©rzÃ©kÃ¼k.
+	k) A gyerekek kombinÃ¡ciÃ³s kÃ©szsÃ©gÃ©nek fejlÅ‘dÃ©se is elÅ‘tÃ©rbe kerÃ¼l.
+	l) Konfliktus kezelÃ©s cÃ©ljÃ¡bÃ³l is hasznos.
  --------------------------------------------------------------------------------------------------------------------------------------
-7. Követelménylista
- Egy olyan rendszer megalkotása, amelyben a játékosok képesek létrehozni saját felhasználói fiókokat, amellyel be tudnak jelentkezni a játékba anélkül, hogy más játékosok is használni tudják a fiókjukat.
- A felhasználói fiókok rendelkezzenek egy profillal, amelyen látható a felhasználói fiók neve, adott szintje, tapasztalat pontja, goldja és profilképe.
- Minden felhasználó tud vásárolni hõsöket, amelyeket késõbb egyedi skinekkel tovább fejleszthet, amelyek a harcok során elõnyhöz juttatják. 
- A csaták alkalmával a játékosok képesek más játékosok és botok egy ellen is megküzdeni. Tudják használni az adott karakterek képességeit, tárgyakkal fejleszteni tudják õket és a harcok végeztével tapasztalat pontra, illetve gyõzelem esetén még goldra is szert tehetnek.
+7. KÃ¶vetelmÃ©nylista
+ Egy olyan rendszer megalkotÃ¡sa, amelyben a jÃ¡tÃ©kosok kÃ©pesek lÃ©trehozni sajÃ¡t felhasznÃ¡lÃ³i fiÃ³kokat, amellyel be tudnak jelentkezni a jÃ¡tÃ©kba anÃ©lkÃ¼l, hogy mÃ¡s jÃ¡tÃ©kosok is hasznÃ¡lni tudjÃ¡k a fiÃ³kjukat.
+ A felhasznÃ¡lÃ³i fiÃ³kok rendelkezzenek egy profillal, amelyen lÃ¡thatÃ³ a felhasznÃ¡lÃ³i fiÃ³k neve, adott szintje, tapasztalat pontja, goldja Ã©s profilkÃ©pe.
+ Minden felhasznÃ¡lÃ³ tud vÃ¡sÃ¡rolni hÅ‘sÃ¶ket, amelyeket kÃ©sÅ‘bb egyedi skinekkel tovÃ¡bb fejleszthet, amelyek a harcok sorÃ¡n elÅ‘nyhÃ¶z juttatjÃ¡k. 
+ A csatÃ¡k alkalmÃ¡val a jÃ¡tÃ©kosok kÃ©pesek mÃ¡s jÃ¡tÃ©kosok Ã©s botok egy ellen is megkÃ¼zdeni. TudjÃ¡k hasznÃ¡lni az adott karakterek kÃ©pessÃ©geit, tÃ¡rgyakkal fejleszteni tudjÃ¡k Å‘ket Ã©s a harcok vÃ©geztÃ©vel tapasztalat pontra, illetve gyÅ‘zelem esetÃ©n mÃ©g goldra is szert tehetnek.
   --------------------------------------------------------------------------------------------------------------------------------------
-8. Használati esetek
- Az emberek a mindennapokban számos helyzetben tudják használni, kikapcsolódás, unalomûzés vagy akár személyes kapcsolatok kialakításának céljából a játékot.
- A gyerekek számára elõnyt nyújt, hogy a nap minden percében (lehetõleg felnõtt felügyelete mellett, maximum 1 óra szünetmentes játék javalt) képesek elõvenni és fejleszteni a logikai, illetve kombinációs készségeiket.
- A tanulók, illetve a dolgozó korosztály számára remek lehetõséget ad a felgyülemlõ stressz levezetésére és még egy remek kikapcsolódási lehetõséget is nyújt egy esti társasjátéknak megfelelõ családi programra.
+8. HasznÃ¡lati esetek
+ Az emberek a mindennapokban szÃ¡mos helyzetben tudjÃ¡k hasznÃ¡lni, kikapcsolÃ³dÃ¡s, unalomÅ±zÃ©s vagy akÃ¡r szemÃ©lyes kapcsolatok kialakÃ­tÃ¡sÃ¡nak cÃ©ljÃ¡bÃ³l a jÃ¡tÃ©kot.
+ A gyerekek szÃ¡mÃ¡ra elÅ‘nyt nyÃºjt, hogy a nap minden percÃ©ben (lehetÅ‘leg felnÅ‘tt felÃ¼gyelete mellett, maximum 1 Ã³ra szÃ¼netmentes jÃ¡tÃ©k javalt) kÃ©pesek elÅ‘venni Ã©s fejleszteni a logikai, illetve kombinÃ¡ciÃ³s kÃ©szsÃ©geiket.
+ A tanulÃ³k, illetve a dolgozÃ³ korosztÃ¡ly szÃ¡mÃ¡ra remek lehetÅ‘sÃ©get ad a felgyÃ¼lemlÅ‘ stressz levezetÃ©sÃ©re Ã©s mÃ©g egy remek kikapcsolÃ³dÃ¡si lehetÅ‘sÃ©get is nyÃºjt egy esti tÃ¡rsasjÃ¡tÃ©knak megfelelÅ‘ csalÃ¡di programra.
  --------------------------------------------------------------------------------------------------------------------------------------
-9. Megfeleltetés
- A program egy megfelelõ biztonságú kikapcsolódási lehetõséget nyújt. Az adatok védettek és a felhasználói profilhoz csak az azt létrehozó személy férhet hozzá. 
- A játékot bárki, bármikor használhatja, nincs idõlimit és mindenki számára elérhetõ, korlátlanul.
- A játék kimenetele alapján tökéletesen alkalmas gyerekek és felnõttek számára egyaránt. A taktikai és logikai harcok során az emberek önmagukat képesek fejleszteni, karban tartani a szellemi képességüket és a problémamegoldó képességüket. Mint azt már korábban is említettem a játék mindamellett, hogy remek készségfejlesztõ,  a mindennapi stressz és konfliktus levezetésére is tökéletesen alkalmas, hiszen mindenféle egyéb pénzbefektetés vagy kiruccanás nélkül képesek vagyunk elõvenni és használni a nap bármely idõpontjában.
- A program emellett egy kung fu stílus tanítását is tovább viszi,  ugyanis ezen harcmûvészetben akárcsak a többi változatát tekintve, amelyek még nem mentek át küzdõsportá, a fegyelem és a kitartás nagyon fontos érv, ahogy az is, hogy milyen módon tudjuk kiismerni az ellenfélt. A Wing Tsun Kung Fu tanítását nézve pedig, nem számít az erõbeli fölény, hiszen az ütést nem kell benyelni, hanem elég kitérni elõle és ezzel egyidõben támadni a gyenge pontokat. Ez az ész küzdelme, nem az erõé.
+9. MegfeleltetÃ©s
+ A program egy megfelelÅ‘ biztonsÃ¡gÃº kikapcsolÃ³dÃ¡si lehetÅ‘sÃ©get nyÃºjt. Az adatok vÃ©dettek Ã©s a felhasznÃ¡lÃ³i profilhoz csak az azt lÃ©trehozÃ³ szemÃ©ly fÃ©rhet hozzÃ¡. 
+ A jÃ¡tÃ©kot bÃ¡rki, bÃ¡rmikor hasznÃ¡lhatja, nincs idÅ‘limit Ã©s mindenki szÃ¡mÃ¡ra elÃ©rhetÅ‘, korlÃ¡tlanul.
+ A jÃ¡tÃ©k kimenetele alapjÃ¡n tÃ¶kÃ©letesen alkalmas gyerekek Ã©s felnÅ‘ttek szÃ¡mÃ¡ra egyarÃ¡nt. A taktikai Ã©s logikai harcok sorÃ¡n az emberek Ã¶nmagukat kÃ©pesek fejleszteni, karban tartani a szellemi kÃ©pessÃ©gÃ¼ket Ã©s a problÃ©mamegoldÃ³ kÃ©pessÃ©gÃ¼ket. Mint azt mÃ¡r korÃ¡bban is emlÃ­tettem a jÃ¡tÃ©k mindamellett, hogy remek kÃ©szsÃ©gfejlesztÅ‘,  a mindennapi stressz Ã©s konfliktus levezetÃ©sÃ©re is tÃ¶kÃ©letesen alkalmas, hiszen mindenfÃ©le egyÃ©b pÃ©nzbefektetÃ©s vagy kiruccanÃ¡s nÃ©lkÃ¼l kÃ©pesek vagyunk elÅ‘venni Ã©s hasznÃ¡lni a nap bÃ¡rmely idÅ‘pontjÃ¡ban.
+ A program emellett egy kung fu stÃ­lus tanÃ­tÃ¡sÃ¡t is tovÃ¡bb viszi,  ugyanis ezen harcmÅ±vÃ©szetben akÃ¡rcsak a tÃ¶bbi vÃ¡ltozatÃ¡t tekintve, amelyek mÃ©g nem mentek Ã¡t kÃ¼zdÅ‘sportÃ¡, a fegyelem Ã©s a kitartÃ¡s nagyon fontos Ã©rv, ahogy az is, hogy milyen mÃ³don tudjuk kiismerni az ellenfÃ©lt. A Wing Tsun Kung Fu tanÃ­tÃ¡sÃ¡t nÃ©zve pedig, nem szÃ¡mÃ­t az erÅ‘beli fÃ¶lÃ©ny, hiszen az Ã¼tÃ©st nem kell benyelni, hanem elÃ©g kitÃ©rni elÅ‘le Ã©s ezzel egyidÅ‘ben tÃ¡madni a gyenge pontokat. Ez az Ã©sz kÃ¼zdelme, nem az erÅ‘Ã©.
  --------------------------------------------------------------------------------------------------------------------------------------
-10. Képernyõtervek
- A játék megnyitásakor lesz egy bejelentkezési felület, amelybe belépve a felhasználó láthatja majd a profilját és a megszerzett hõseit. Ezen képernyõn keresztül tud további hõsöket és skineket vásárolni, illetve innen tud csatákba lépni. A csaták indítása elõtt lesz egy külön felület ahol a felhasználó kiválaszthatja, hogy melyik karakterrel szeretne játszani és innen kerül tovább az csata felületre, ahol nyomon tudja követni az összecsapás eseményeit.
+10. KÃ©pernyÅ‘tervek
+ A jÃ¡tÃ©k megnyitÃ¡sakor lesz egy bejelentkezÃ©si felÃ¼let, amelybe belÃ©pve a felhasznÃ¡lÃ³ lÃ¡thatja majd a profiljÃ¡t Ã©s a megszerzett hÅ‘seit. Ezen kÃ©pernyÅ‘n keresztÃ¼l tud tovÃ¡bbi hÅ‘sÃ¶ket Ã©s skineket vÃ¡sÃ¡rolni, illetve innen tud csatÃ¡kba lÃ©pni. A csatÃ¡k indÃ­tÃ¡sa elÅ‘tt lesz egy kÃ¼lÃ¶n felÃ¼let ahol a felhasznÃ¡lÃ³ kivÃ¡laszthatja, hogy melyik karakterrel szeretne jÃ¡tszani Ã©s innen kerÃ¼l tovÃ¡bb az csata felÃ¼letre, ahol nyomon tudja kÃ¶vetni az Ã¶sszecsapÃ¡s esemÃ©nyeit.
  --------------------------------------------------------------------------------------------------------------------------------------
-11. Forgatókönyvek
- A felhasználó elsõ bejelentkezés alkalmával regisztrál az oldalra, majd egy általa megadott felhasználónév és jelszó segítségével belép a játék fõoldalára.
- A fõ oldalon meg tudja nézni a felhasználói profilját, ahol láthatja a felhasználónevét, a megszerzett karaktereit, profilképét (amit meg is tud változtatni), a szintjét, a jelenlegi tapasztalati pontját, illetve a goldját.  A felhasználó képes megváltoztatni a profilképét: 4 elõre elkészített kép közül választhat.
- A fõ oldalon továbbá a felhasználó képes vásárolni újabb karaktereket vásárolni, vagy a már meglévõknek skineket venni. A skinek alkalmazása megváltoztatja a karakterek alap statját, amely elõnyhz juttatja õket a harcok során.
- A fõ oldalon lehetséges csatákat indítani. A felhasználó küzdhet botok, illetve más játékosok ellen. Botok esetén a felhasználó ellen egy könnyû/közepes/nehéz szintû, random karaktert dob be a játék, amely ellen ugyanúgy harcolhat mint más játékosok ellen. Ha más felhasználók ellen szeretnénk játszani, akkor adott a lehetõség a rendszer által dobott random ellenfél, vagy barát kihívására is. Ezen ütközetek esetén felmérhetik a játékosok a tudásukat más játékosokkal szemben. A harcok végén pedig a végkimenetelnek megfelelõen tapasztalati pontot, illetve goldot szerezhetnek.
+11. ForgatÃ³kÃ¶nyvek
+ A felhasznÃ¡lÃ³ elsÅ‘ bejelentkezÃ©s alkalmÃ¡val regisztrÃ¡l az oldalra, majd egy Ã¡ltala megadott felhasznÃ¡lÃ³nÃ©v Ã©s jelszÃ³ segÃ­tsÃ©gÃ©vel belÃ©p a jÃ¡tÃ©k fÅ‘oldalÃ¡ra.
+ A fÅ‘ oldalon meg tudja nÃ©zni a felhasznÃ¡lÃ³i profiljÃ¡t, ahol lÃ¡thatja a felhasznÃ¡lÃ³nevÃ©t, a megszerzett karaktereit, profilkÃ©pÃ©t (amit meg is tud vÃ¡ltoztatni), a szintjÃ©t, a jelenlegi tapasztalati pontjÃ¡t, illetve a goldjÃ¡t.  A felhasznÃ¡lÃ³ kÃ©pes megvÃ¡ltoztatni a profilkÃ©pÃ©t: 4 elÅ‘re elkÃ©szÃ­tett kÃ©p kÃ¶zÃ¼l vÃ¡laszthat.
+ A fÅ‘ oldalon tovÃ¡bbÃ¡ a felhasznÃ¡lÃ³ kÃ©pes vÃ¡sÃ¡rolni Ãºjabb karaktereket vÃ¡sÃ¡rolni, vagy a mÃ¡r meglÃ©vÅ‘knek skineket venni. A skinek alkalmazÃ¡sa megvÃ¡ltoztatja a karakterek alap statjÃ¡t, amely elÅ‘nyhz juttatja Å‘ket a harcok sorÃ¡n.
+ A fÅ‘ oldalon lehetsÃ©ges csatÃ¡kat indÃ­tani. A felhasznÃ¡lÃ³ kÃ¼zdhet botok, illetve mÃ¡s jÃ¡tÃ©kosok ellen. Botok esetÃ©n a felhasznÃ¡lÃ³ ellen egy kÃ¶nnyÅ±/kÃ¶zepes/nehÃ©z szintÅ±, random karaktert dob be a jÃ¡tÃ©k, amely ellen ugyanÃºgy harcolhat mint mÃ¡s jÃ¡tÃ©kosok ellen. Ha mÃ¡s felhasznÃ¡lÃ³k ellen szeretnÃ©nk jÃ¡tszani, akkor adott a lehetÅ‘sÃ©g a rendszer Ã¡ltal dobott random ellenfÃ©l, vagy barÃ¡t kihÃ­vÃ¡sÃ¡ra is. Ezen Ã¼tkÃ¶zetek esetÃ©n felmÃ©rhetik a jÃ¡tÃ©kosok a tudÃ¡sukat mÃ¡s jÃ¡tÃ©kosokkal szemben. A harcok vÃ©gÃ©n pedig a vÃ©gkimenetelnek megfelelÅ‘en tapasztalati pontot, illetve goldot szerezhetnek.
  --------------------------------------------------------------------------------------------------------------------------------------
-12. Funkció-követelmény megfeleltetés
- A felhasználó számára minden szükséges dolog adott a játék megismerésére és használatára. 
- A követelményrendszerben megfogalmazottak szerint a játékba a felhasználó, jelszó és felhasználónév által tud csatlakozni és részt venni eme csodás ütközetekben. Minden lehetõség adott rá, hogy úgy alakítsák ki a profiljukat, ahogy az nekik a legmegfelelõbb.
- A karakterkészlet többféle lehetõséget nyújt, hogy mindenki megtalálja a neki legmegfelelõbb hõsöket, akik mindamellett, hogy feletébb különbözõ tulajdonságokkal bírnak, a harcokban kiegyenlítettek a képességeik. A karakterek statjait is próbáljuk egyenértékûre készíteni, így elkerülve, hogy egy-egy karakter erõsebb legyen, mint a társai.
- A megszerzett tapasztalati pont és gold aránya a meccsek kimenetelétõl és hosszától függõen változik és ezekkel tudnak a játékosok fejlõdni a továbbiakban.
+12. FunkciÃ³-kÃ¶vetelmÃ©ny megfeleltetÃ©s
+ A felhasznÃ¡lÃ³ szÃ¡mÃ¡ra minden szÃ¼ksÃ©ges dolog adott a jÃ¡tÃ©k megismerÃ©sÃ©re Ã©s hasznÃ¡latÃ¡ra. 
+ A kÃ¶vetelmÃ©nyrendszerben megfogalmazottak szerint a jÃ¡tÃ©kba a felhasznÃ¡lÃ³, jelszÃ³ Ã©s felhasznÃ¡lÃ³nÃ©v Ã¡ltal tud csatlakozni Ã©s rÃ©szt venni eme csodÃ¡s Ã¼tkÃ¶zetekben. Minden lehetÅ‘sÃ©g adott rÃ¡, hogy Ãºgy alakÃ­tsÃ¡k ki a profiljukat, ahogy az nekik a legmegfelelÅ‘bb.
+ A karakterkÃ©szlet tÃ¶bbfÃ©le lehetÅ‘sÃ©get nyÃºjt, hogy mindenki megtalÃ¡lja a neki legmegfelelÅ‘bb hÅ‘sÃ¶ket, akik mindamellett, hogy feletÃ©bb kÃ¼lÃ¶nbÃ¶zÅ‘ tulajdonsÃ¡gokkal bÃ­rnak, a harcokban kiegyenlÃ­tettek a kÃ©pessÃ©geik. A karakterek statjait is prÃ³bÃ¡ljuk egyenÃ©rtÃ©kÅ±re kÃ©szÃ­teni, Ã­gy elkerÃ¼lve, hogy egy-egy karakter erÅ‘sebb legyen, mint a tÃ¡rsai.
+ A megszerzett tapasztalati pont Ã©s gold arÃ¡nya a meccsek kimenetelÃ©tÅ‘l Ã©s hosszÃ¡tÃ³l fÃ¼ggÅ‘en vÃ¡ltozik Ã©s ezekkel tudnak a jÃ¡tÃ©kosok fejlÅ‘dni a tovÃ¡bbiakban.
  --------------------------------------------------------------------------------------------------------------------------------------
-13. Fogalomszótár
-	- gold: A játékban használt pénznem. A játékosok elleni gyõztes kimenetelû meccsekért lehet szerezni.
-	- heal: Életerõt tölt vissza a karakternek.
-	- itemek: A harcok folyamán megvásárolható tárgyak, amelyek növelik a karakterek statját vagy egy plusz varázslatot adnak.
-	- karakter: A karakterek olyan személyek, állatok, fantázia lények, amelyekkel az ütközetek során harcolhat a felhasználó.
-	- képességek: A karakterek rendelkeznek varázslatokkal, amelyek sebzést osztanak ki, healelik õket vagy pajzsot vonnak maguk köré. Minden karakter más varázslatokkal rendelkezik. Egy karakternek 4 varázslata van.
-	- profil: A felhasználó adatlapja, ahol megtekintheti, milyen szinten van, mennyi goldja van, milyen karakterekkel rendelkezik.
-	- profilkép: A felhasználó profilján megtekinthetõ egy kép, amelyet a felhasználó kedve szerint állíthat be. 4 alapkép közül lehet választani, ezzel meg lehet mutatni akár azt is, hogy az adott illetõ milyen nemû.
-	- skin: A karaktereknek készítünk különféle kinézeteket. Van egy alap, amit a karakter megvásárlásával kapunk, de lehet venni még különbözõeket is, amelyek nem csak szebbek, de különféle módon javíthatják a karakter alap statját is.
-	- stat: A stat a karakterek alapadatait: életereje, manája, fizikai/mágikus ereje, pajzs szintje.
-	- szint: A szint a felhasználó elõremenetelét mutatja a játékban. Minden szinten el kell érni egy bizonyos szintû tapasztalati pontot, amely megszerzésével a következõ szintre lép, így láthatja többi felhasználó, hogy a másik mennyi játékon van már túl.
-	- tapasztalati pont: A tapasztali pontok segítségével lép szintet a játékos. Minden meccs végeztével kap egy bizonyos számû tapasztalati pontot, attól függõen, hogy botok vagy játékos ellen játszott, illetve, hogy megnyerte az adott harcot vagy sem.
+13. FogalomszÃ³tÃ¡r
+	- gold: A jÃ¡tÃ©kban hasznÃ¡lt pÃ©nznem. A jÃ¡tÃ©kosok elleni gyÅ‘ztes kimenetelÅ± meccsekÃ©rt lehet szerezni.
+	- heal: Ã‰leterÅ‘t tÃ¶lt vissza a karakternek.
+	- itemek: A harcok folyamÃ¡n megvÃ¡sÃ¡rolhatÃ³ tÃ¡rgyak, amelyek nÃ¶velik a karakterek statjÃ¡t vagy egy plusz varÃ¡zslatot adnak.
+	- karakter: A karakterek olyan szemÃ©lyek, Ã¡llatok, fantÃ¡zia lÃ©nyek, amelyekkel az Ã¼tkÃ¶zetek sorÃ¡n harcolhat a felhasznÃ¡lÃ³.
+	- kÃ©pessÃ©gek: A karakterek rendelkeznek varÃ¡zslatokkal, amelyek sebzÃ©st osztanak ki, healelik Å‘ket vagy pajzsot vonnak maguk kÃ¶rÃ©. Minden karakter mÃ¡s varÃ¡zslatokkal rendelkezik. Egy karakternek 4 varÃ¡zslata van.
+	- profil: A felhasznÃ¡lÃ³ adatlapja, ahol megtekintheti, milyen szinten van, mennyi goldja van, milyen karakterekkel rendelkezik.
+	- profilkÃ©p: A felhasznÃ¡lÃ³ profiljÃ¡n megtekinthetÅ‘ egy kÃ©p, amelyet a felhasznÃ¡lÃ³ kedve szerint Ã¡llÃ­that be. 4 alapkÃ©p kÃ¶zÃ¼l lehet vÃ¡lasztani, ezzel meg lehet mutatni akÃ¡r azt is, hogy az adott illetÅ‘ milyen nemÅ±.
+	- skin: A karaktereknek kÃ©szÃ­tÃ¼nk kÃ¼lÃ¶nfÃ©le kinÃ©zeteket. Van egy alap, amit a karakter megvÃ¡sÃ¡rlÃ¡sÃ¡val kapunk, de lehet venni mÃ©g kÃ¼lÃ¶nbÃ¶zÅ‘eket is, amelyek nem csak szebbek, de kÃ¼lÃ¶nfÃ©le mÃ³don javÃ­thatjÃ¡k a karakter alap statjÃ¡t is.
+	- stat: A stat a karakterek alapadatait: Ã©letereje, manÃ¡ja, fizikai/mÃ¡gikus ereje, pajzs szintje.
+	- szint: A szint a felhasznÃ¡lÃ³ elÅ‘remenetelÃ©t mutatja a jÃ¡tÃ©kban. Minden szinten el kell Ã©rni egy bizonyos szintÅ± tapasztalati pontot, amely megszerzÃ©sÃ©vel a kÃ¶vetkezÅ‘ szintre lÃ©p, Ã­gy lÃ¡thatja tÃ¶bbi felhasznÃ¡lÃ³, hogy a mÃ¡sik mennyi jÃ¡tÃ©kon van mÃ¡r tÃºl.
+	- tapasztalati pont: A tapasztali pontok segÃ­tsÃ©gÃ©vel lÃ©p szintet a jÃ¡tÃ©kos. Minden meccs vÃ©geztÃ©vel kap egy bizonyos szÃ¡mÅ± tapasztalati pontot, attÃ³l fÃ¼ggÅ‘en, hogy botok vagy jÃ¡tÃ©kos ellen jÃ¡tszott, illetve, hogy megnyerte az adott harcot vagy sem.
