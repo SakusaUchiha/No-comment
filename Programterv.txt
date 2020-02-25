@@ -81,7 +81,7 @@ A játék androidos felülete az Android Studio 3.5.3-as verziójával készül.
                              Leírja részletesen a felhasználási feltételeket.
  - Az alkotókról: Ugyanaz.
  - Jogi nyilatkozat: Ugyanaz.
-   
+ ---------------------------------------------------------------------------------------------------------------------------------------
    2. Főprogram
  - Kezdőlap: Jelenítse meg a frissitéseket.
  - Menüpontok: Elő lehessen hívni.
@@ -131,5 +131,5 @@ A játék androidos felülete az Android Studio 3.5.3-as verziójával készül.
    - Kijelentkezés: Jelentkezzen ki a rendszerből.
                     A rendszer kísérje figyelemmel a bejelentkezett felhasználókat.
                     EGYSZERRE EGY FELHASZNÁLÓ CSAK EGY ESZKÖZÖK LEHET BEJELENTKEZVE.
-                    
+ --------------------------------------------------------------------------------------------------------------------------------------- 
     3.Játék
