@@ -95,7 +95,7 @@ Absztrakt komponensek:
  --------------------------------------------------------------------------------------------------------------------------------------
 7. Architekturális terv
 Bejelentkezés/Regisztrációs esetek:
- A regisztráció során, ha már látező felhasználónevet adunk vagy ha olyan karaktereket használunk, amelyek nem megengedettek (pl.: vessző, pontosvessző, #, @ stb.), akkor hibaüzenetet kapunk.
+ A regisztráció során, ha már létező felhasználónevet adunk vagy ha olyan karaktereket használunk, amelyek nem megengedettek (pl.: vessző, pontosvessző, #, @ stb.), akkor hibaüzenetet kapunk.
  A bejelentkezés során, ha nem megfelelő felhasználónevet vagy jelszót adunk meg, szintén hibaüzenetet jelez a rendszer.
 Vásárlásnál:
  Ha megvásároltunk egy karaktert/skint, akkor az a karakter már ne jelenjen meg a boltban megvásárolható karakterek között.
