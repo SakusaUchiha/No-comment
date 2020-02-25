@@ -1,98 +1,98 @@
-0.Vezetõi specifikáció
- Célunk egy olyan program megalkotása, amely webes, illetve androidos felületen is hibátlanul fut.
- Végeredményképpen létrehozunk egy stratégiai játékot, ahol a játékosok egymás ellen vehetik fel a versenyt. A játékba user név és jelszó segítségével lehet bejelentkezni, illetve regisztrálni. Belépés után pedig a fõoldalon lehet kisebb beállításokat végrehajtani, illetve karaktereket szerezni. Az alap felhasználók 2 karakterrel rendelkeznek. Ezen karaktereknek van saját statja, amelyek meghatározzák erõsségüket a meccsek folyamán. Ezen statok kiegyenlítettek és minden karakternél egyediek.
- A meccsek végeztével elõre meghatározott szám generálással lehet kapni tapasztalati pontot, illetve goldot, amellyel fejlõdni lehet a késõbbiek folyamán.
+0.VezetÅ‘i specifikÃ¡ciÃ³
+ CÃ©lunk egy olyan program megalkotÃ¡sa, amely androidos felÃ¼leten hibÃ¡tlanul fut.
+ VÃ©geredmÃ©nykÃ©ppen lÃ©trehozunk egy stratÃ©giai jÃ¡tÃ©kot, ahol a jÃ¡tÃ©kosok egymÃ¡s ellen vehetik fel a versenyt. A jÃ¡tÃ©kba user nÃ©v Ã©s jelszÃ³ segÃ­tsÃ©gÃ©vel lehet bejelentkezni, illetve regisztrÃ¡lni. BelÃ©pÃ©s utÃ¡n pedig a fÅ‘oldalon lehet kisebb beÃ¡llÃ­tÃ¡sokat vÃ©grehajtani, illetve karaktereket szerezni. Az alap felhasznÃ¡lÃ³k 2 karakterrel rendelkeznek. Ezen karaktereknek van sajÃ¡t statja, amelyek meghatÃ¡rozzÃ¡k erÅ‘ssÃ©gÃ¼ket a meccsek folyamÃ¡n. Ezen statok kiegyenlÃ­tettek Ã©s minden karakternÃ©l egyediek.
+ A meccsek vÃ©geztÃ©vel elÅ‘re meghatÃ¡rozott szÃ¡m generÃ¡lÃ¡ssal lehet kapni tapasztalati pontot, illetve goldot, amellyel fejlÅ‘dni lehet a kÃ©sÅ‘bbiek folyamÃ¡n.
  --------------------------------------------------------------------------------------------------------------------------------------
-1. Jelenlegi helyzet leírása
- Jelenleg még a program kidolgozása folyik.
+1. Jelenlegi helyzet leÃ­rÃ¡sa
+ Egy olyan rendszer szeretnÃ©k kÃ©szÃ­teni, amely mindenki szÃ¡mÃ¡ra elÃ©rhetÅ‘ Ã©s hiba nÃ©lkÃ¼l kÃ©pes kezelni a felhasznÃ¡lÃ³ Ã¡ltal adott utasÃ­tÃ¡sokat. A bugok elkerÃ¼lÃ©se vÃ©gett tÃ¶bb tesztelÃ©si folyamaton is Ã¡t kell esnie a programnak.
  --------------------------------------------------------------------------------------------------------------------------------------
-2. Vágyálomrendszer leírása
- A cél androidon és webes felületen egy olyan játék program létrehozása, amiben a felhasználók karaktereket választhatnak maguknak és egymás ellen harcolhatnak. A játékba felhasználó névvel és jelszóval lehessen belépni és minden játékosnak rendelkeznie kell szinttel és golddal. A goldot a játékos a harcok során szerezhessen. Elsõ bejelentkezésnél véletlenszerûen jelenjen meg 5 karakter, melyek közül a játékos kettõt választhat ki. Eleinte ezt a két karaktert használhatja, majd késõbb a felhasználó vásárolhat karaktereket, amelyekért golddal fizethet. A programban a karaktereknek legyen életerejük és manájuk. Emellett pedig rendelkezniük kell 4 alap képességgel. A játékosok skineket is vásárolhatnak, melyek megváltoztatják a karakterük alap statját. A harc folyamán körönkét lehessen goldot kapni és elsõ lépésként csak skilleket lehessen használni. Emellett pedig a játékos körönként eldöntheti, hogy skilleket vagy itemet vegyen vagy esetleg egyiket sem. A skilleknek legyen cooldown-ja, az elsõt minden körben lehessen használni, a másodikat minden második körben és ez így növekedjen körönként. Az itemekbõl származó skilleket minden 3. körben lehessen újra felhasználni. Az item vásárlásnál a játékos maradjon ki egy körbõl. Összesen 8 itemet lehet vásárolni, ebbõl 2 aktív és 6 passzív item lehet. Két fajta item legyen egy passzív és egy aktív. A passzív növelje a statot, az aktív pedig adjon egy újabb skillt. Ha a játékos egyiket sem szeretné használni, akkor legyen egy olyan lehetõség, hogy kimarad egy körbõl. Maga a harcok addig tartsanak, amíg az egyik karakter meg nem hal vagy az egyik játékos fel nem adja. A gyõztes kapjon goldot és xp-t, míg a vesztes csak xp-t kaphat.
+2. VÃ¡gyÃ¡lomrendszer leÃ­rÃ¡sa
+ A cÃ©l androidon Ã©s webes felÃ¼leten egy olyan jÃ¡tÃ©k program lÃ©trehozÃ¡sa, amiben a felhasznÃ¡lÃ³k karaktereket vÃ¡laszthatnak maguknak Ã©s egymÃ¡s ellen harcolhatnak. A jÃ¡tÃ©kba felhasznÃ¡lÃ³ nÃ©vvel Ã©s jelszÃ³val lehessen belÃ©pni Ã©s minden jÃ¡tÃ©kosnak rendelkeznie kell szinttel Ã©s golddal. A goldot a jÃ¡tÃ©kos a harcok sorÃ¡n szerezhessen. ElsÅ‘ bejelentkezÃ©snÃ©l vÃ©letlenszerÅ±en jelenjen meg 5 karakter, melyek kÃ¶zÃ¼l a jÃ¡tÃ©kos kettÅ‘t vÃ¡laszthat ki. Eleinte ezt a kÃ©t karaktert hasznÃ¡lhatja, majd kÃ©sÅ‘bb a felhasznÃ¡lÃ³ vÃ¡sÃ¡rolhat karaktereket, amelyekÃ©rt golddal fizethet. A programban a karaktereknek legyen Ã©leterejÃ¼k Ã©s manÃ¡juk. Emellett pedig rendelkezniÃ¼k kell 4 alap kÃ©pessÃ©ggel. A jÃ¡tÃ©kosok skineket is vÃ¡sÃ¡rolhatnak, melyek megvÃ¡ltoztatjÃ¡k a karakterÃ¼k alap statjÃ¡t. A harc folyamÃ¡n kÃ¶rÃ¶nkÃ©t lehessen goldot kapni Ã©s elsÅ‘ lÃ©pÃ©skÃ©nt csak skilleket lehessen hasznÃ¡lni. Emellett pedig a jÃ¡tÃ©kos kÃ¶rÃ¶nkÃ©nt eldÃ¶ntheti, hogy skilleket vagy itemet vegyen vagy esetleg egyiket sem. A skilleknek legyen cooldown-ja, az elsÅ‘t minden kÃ¶rben lehessen hasznÃ¡lni, a mÃ¡sodikat minden mÃ¡sodik kÃ¶rben Ã©s ez Ã­gy nÃ¶vekedjen kÃ¶rÃ¶nkÃ©nt. Az itemekbÅ‘l szÃ¡rmazÃ³ skilleket minden 3. kÃ¶rben lehessen Ãºjra felhasznÃ¡lni. Az item vÃ¡sÃ¡rlÃ¡snÃ¡l a jÃ¡tÃ©kos maradjon ki egy kÃ¶rbÅ‘l. Ã–sszesen 8 itemet lehet vÃ¡sÃ¡rolni, ebbÅ‘l 2 aktÃ­v Ã©s 6 passzÃ­v item lehet. KÃ©t fajta item legyen egy passzÃ­v Ã©s egy aktÃ­v. A passzÃ­v nÃ¶velje a statot, az aktÃ­v pedig adjon egy Ãºjabb skillt. Ha a jÃ¡tÃ©kos egyiket sem szeretnÃ© hasznÃ¡lni, akkor legyen egy olyan lehetÅ‘sÃ©g, hogy kimarad egy kÃ¶rbÅ‘l. Maga a harcok addig tartsanak, amÃ­g az egyik karakter meg nem hal vagy az egyik jÃ¡tÃ©kos fel nem adja. A gyÅ‘ztes kapjon goldot Ã©s xp-t, mÃ­g a vesztes csak xp-t kaphat.
  --------------------------------------------------------------------------------------------------------------------------------------
-3. A rendszerre vonatkozó pályázatok, törvények, rendeletek, szabványok és ajánlások felsorolása
-4.1. Szerzõi jogszabályok:
-A törvény szerint az eredeti számítógépes program az azt létrehozó személy vagy vállalat szellemi tulajdona. A számítógépes programokat szerzõi jogi törvény védi, amely kimondja, hogy az ilyen mûvek engedély nélküli másolása törvénybe ütközõ cselekedet. (Magyarországon a szerzõi jogokat az 1999. évi LXXVI. törvény szabályozza)
-Licenszerzõdés(amennyiben van)
-4.2. Adatvédelmi jogszabályok:
-AZ EURÓPAI PARLAMENT ÉS A TANÁCS (EU) 2016/679 RENDELETE (2016. április 27.) a természetes személyeknek a személyes adatok kezelése tekintetében történõ védelmérõl és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK rendelet hatályon kívül helyezésérõl (általános adatvédelmi rendelet)
-évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról ( Infotv.)
-4.3 Felhasználálási feltételek:
-A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, mikrofon) való hozzáférést biztosítani kell. Ezeket bizalmasan kezeljük, harmadik félhez nem juttatjuk el, semmilyen formában, másnak hozzáférést nem biztosítunk.
+3. A rendszerre vonatkozÃ³ pÃ¡lyÃ¡zatok, tÃ¶rvÃ©nyek, rendeletek, szabvÃ¡nyok Ã©s ajÃ¡nlÃ¡sok felsorolÃ¡sa
+4.1. SzerzÅ‘i jogszabÃ¡lyok:
+A tÃ¶rvÃ©ny szerint az eredeti szÃ¡mÃ­tÃ³gÃ©pes program az azt lÃ©trehozÃ³ szemÃ©ly vagy vÃ¡llalat szellemi tulajdona. A szÃ¡mÃ­tÃ³gÃ©pes programokat szerzÅ‘i jogi tÃ¶rvÃ©ny vÃ©di, amely kimondja, hogy az ilyen mÅ±vek engedÃ©ly nÃ©lkÃ¼li mÃ¡solÃ¡sa tÃ¶rvÃ©nybe Ã¼tkÃ¶zÅ‘ cselekedet. (MagyarorszÃ¡gon a szerzÅ‘i jogokat az 1999. Ã©vi LXXVI. tÃ¶rvÃ©ny szabÃ¡lyozza)
+LicenszerzÅ‘dÃ©s(amennyiben van)
+4.2. AdatvÃ©delmi jogszabÃ¡lyok:
+AZ EURÃ“PAI PARLAMENT Ã‰S A TANÃCS (EU) 2016/679 RENDELETE (2016. Ã¡prilis 27.) a termÃ©szetes szemÃ©lyeknek a szemÃ©lyes adatok kezelÃ©se tekintetÃ©ben tÃ¶rtÃ©nÅ‘ vÃ©delmÃ©rÅ‘l Ã©s az ilyen adatok szabad Ã¡ramlÃ¡sÃ¡rÃ³l, valamint a 95/46/EK rendelet hatÃ¡lyon kÃ­vÃ¼l helyezÃ©sÃ©rÅ‘l (Ã¡ltalÃ¡nos adatvÃ©delmi rendelet)
+Ã©vi CXII. tÃ¶rvÃ©ny az informÃ¡ciÃ³s Ã¶nrendelkezÃ©si jogrÃ³l Ã©s az informÃ¡ciÃ³szabadsÃ¡grÃ³l ( Infotv.)
+4.3 FelhasznÃ¡lÃ¡lÃ¡si feltÃ©telek:
+A szÃ¡mÃ­tÃ³gÃ©pen lÃ©vÃ¶ fÃ¡jlokhoz, szÃ¡mÃ­tÃ³gÃ©p eszkÃ¶zeihez (pl.: kamera, mikrofon) valÃ³ hozzÃ¡fÃ©rÃ©st biztosÃ­tani kell. Ezeket bizalmasan kezeljÃ¼k, harmadik fÃ©lhez nem juttatjuk el, semmilyen formÃ¡ban, mÃ¡snak hozzÃ¡fÃ©rÃ©st nem biztosÃ­tunk.
  --------------------------------------------------------------------------------------------------------------------------------------
-4. Jelenlegi üzleti folyamatok modellje
- Elsõ lépésben egy alap programot készítünk el, ahol a felhasználó képes bejelentkezni a játékba. Tud karakterek közül választani és velük csatákba menni. A csatákat elõre leprogramozott botok ellen játszhatják.
- Második lépésben a programot felfejlesztjük annyira, hogy a felhasználók rendelkeznek golddal amibõl karaktert lehet vásárolni. A karakterekhez képességeket rendelünk és ezeket felhasználva fognak tudni harcolni egymás ellen. A képességeknek ebben a verzióban még nincs cooldownja.
- A harmadik verzió folyamán bevezetjük a goldszerzés folyamatát és annak algoritmusát, miszerint, mennyi goldot kapjanak a csatákért. A karakterek képességei cooldownnal bõvülnek, így csökkentve a használati lehetõségüket, fokozva az izgalmakat.
- A negyedik verzióban a felhasználókhoz rendelünk tapasztalati pontokat, amelyeknek szintén lesz egy algoritmusa, hogy mi alapján, mennyit osszon ki a rendszer egy-egy meccsért cserébe. A tapasztalati pontok által tudnak a játékosok szintet lépni, így mutatva más játékosok számára, mennyi tapasztalattal rendelkeznek. Ebben a verzióban jelennek meg az itemek is, amelyeket a harcok folyamán lehet megvásárolni és a karakterekhez statokat rendelünk.
- Az ötödik rész során a karakterek skineket kapnak, amelyek változtatnak a statukon. Az itemeket pedig két részre osztjuk, aktív és passzív item kategóriában.
- A hatodik és egyben utolsó verzió során a játékosok képesek lesznek egymás ellen is harcolni, nem csak botok ellen. A tökéletesség hiánya nélkül, fontosnak tartjuk, hogy túl nagy szintkülönbséggel rendelkezõ játékosokat ne rakjon egymás ellen a rendszer.
+4. Jelenlegi Ã¼zleti folyamatok modellje
+ ElsÅ‘ lÃ©pÃ©sben egy alap programot kÃ©szÃ­tÃ¼nk el, ahol a felhasznÃ¡lÃ³ kÃ©pes bejelentkezni a jÃ¡tÃ©kba. Tud karakterek kÃ¶zÃ¼l vÃ¡lasztani Ã©s velÃ¼k csatÃ¡kba menni. A csatÃ¡kat elÅ‘re leprogramozott botok ellen jÃ¡tszhatjÃ¡k.
+ MÃ¡sodik lÃ©pÃ©sben a programot felfejlesztjÃ¼k annyira, hogy a felhasznÃ¡lÃ³k rendelkeznek golddal amibÅ‘l karaktert lehet vÃ¡sÃ¡rolni. A karakterekhez kÃ©pessÃ©geket rendelÃ¼nk Ã©s ezeket felhasznÃ¡lva fognak tudni harcolni egymÃ¡s ellen. A kÃ©pessÃ©geknek ebben a verziÃ³ban mÃ©g nincs cooldownja.
+ A harmadik verziÃ³ folyamÃ¡n bevezetjÃ¼k a goldszerzÃ©s folyamatÃ¡t Ã©s annak algoritmusÃ¡t, miszerint, mennyi goldot kapjanak a csatÃ¡kÃ©rt. A karakterek kÃ©pessÃ©gei cooldownnal bÅ‘vÃ¼lnek, Ã­gy csÃ¶kkentve a hasznÃ¡lati lehetÅ‘sÃ©gÃ¼ket, fokozva az izgalmakat.
+ A negyedik verziÃ³ban a felhasznÃ¡lÃ³khoz rendelÃ¼nk tapasztalati pontokat, amelyeknek szintÃ©n lesz egy algoritmusa, hogy mi alapjÃ¡n, mennyit osszon ki a rendszer egy-egy meccsÃ©rt cserÃ©be. A tapasztalati pontok Ã¡ltal tudnak a jÃ¡tÃ©kosok szintet lÃ©pni, Ã­gy mutatva mÃ¡s jÃ¡tÃ©kosok szÃ¡mÃ¡ra, mennyi tapasztalattal rendelkeznek. Ebben a verziÃ³ban jelennek meg az itemek is, amelyeket a harcok folyamÃ¡n lehet megvÃ¡sÃ¡rolni Ã©s a karakterekhez statokat rendelÃ¼nk.
+ Az Ã¶tÃ¶dik rÃ©sz sorÃ¡n a karakterek skineket kapnak, amelyek vÃ¡ltoztatnak a statukon. Az itemeket pedig kÃ©t rÃ©szre osztjuk, aktÃ­v Ã©s passzÃ­v item kategÃ³riÃ¡ban.
+ A hatodik Ã©s egyben utolsÃ³ verziÃ³ sorÃ¡n a jÃ¡tÃ©kosok kÃ©pesek lesznek egymÃ¡s ellen is harcolni, nem csak botok ellen. A tÃ¶kÃ©letessÃ©g hiÃ¡nya nÃ©lkÃ¼l, fontosnak tartjuk, hogy tÃºl nagy szintkÃ¼lÃ¶nbsÃ©ggel rendelkezÅ‘ jÃ¡tÃ©kosokat ne rakjon egymÃ¡s ellen a rendszer.
  --------------------------------------------------------------------------------------------------------------------------------------
-5. Igényelt üzleti folyamatok modellje
-  Egy androidos és egy webes játékot fogunk készíteni, ahogy az a megrendelõ elvárásai alapján kitaláltuk. Minden informatika háttér megfelel a követelményeknek és az elvárásoknak.
-  A program az elõre kidolgozott verzióknak megfelelõen készül el. A verziókban leírtak opcionálisak és a változás lehetõségét mindvégig fenntartjuk.
+5. IgÃ©nyelt Ã¼zleti folyamatok modellje
+  Egy androidos Ã©s egy webes jÃ¡tÃ©kot fogunk kÃ©szÃ­teni, ahogy az a megrendelÅ‘ elvÃ¡rÃ¡sai alapjÃ¡n kitalÃ¡ltuk. Minden informatika hÃ¡ttÃ©r megfelel a kÃ¶vetelmÃ©nyeknek Ã©s az elvÃ¡rÃ¡soknak.
+  A program az elÅ‘re kidolgozott verziÃ³knak megfelelÅ‘en kÃ©szÃ¼l el. A verziÃ³kban leÃ­rtak opcionÃ¡lisak Ã©s a vÃ¡ltozÃ¡s lehetÅ‘sÃ©gÃ©t mindvÃ©gig fenntartjuk.
  --------------------------------------------------------------------------------------------------------------------------------------
-6. Követelménylista
-Modul        |ID |Név                   |Verziószám |Kifejtés
-Bejelentkezés|K1 |Belépés               |0.1 verzió
-A játékos a felhasználó neve és a jelszava alapján léphet be a játékba.
-Karakter     |K5 |Karakter adatai       |0.1 verzió
-A karaktereknek legyenek életerejük és manájuk.
-Játék        |K10|Harcok folyamata      |0.1 verzió
-A harcok során a játékos körönként tudjon goldot kapni, emelett pedig eldöntheti, hogy skilleket vagy itemet vagy esetleg ezek közül egyiket sem választja.
-Felhasználó  |K2 |Gold                  |0.2 verzió
-A felhasználó rendelkezik golddal, amibõl hõsöket tud venni.
-Csaták       |K16|Bot játékosok         |0.2 verzió
-Bot meccses csaták.
-Felhasználó  |K4 |Karakter szerzés      |0.2 verzió
-Elsõ bejelentkezéskor a felhasználónak 5 véletlenszerûen megjelenõ karakter közül kell választania kettõt. Eleinte a játékos ezzel a kettõ karakterrel játszhat, majd késõbb vehet többet, amiért golddal fizethet.
-Karakter     |K7 |Karakter képességek   |0.2 verzió
-A karaktereknek 4 alapképessége van.
-Játék        |K11|Végkimenetele         |0.3 verzió
-A harcok addig tartsanak, míg az egyik karakter meg nem hal vagy míg az egyik játékos fel nem adja. A gyõztes kapjon goldot és xp-t, míg a vesztes csak xp-t kapjon.
-Itemek       |K12|Cooldown              |0.3 verzió
-A skilleknek legyen cooldownja, az elsõt minden körben lehessen használni, a másodikat minden második körben és ez így növekedjen körönként. AZ itemekbõl származó skilleket minden 3. körben újra fel lehessen használni.
-Játék        |K9 |Gold szerzés          |0.3 verzió
-Goldot a harcok során körönként lehessen szerezni.
-Itemek       |K13|Item                  |0.4 verzió
-Item vásárlásánál a játékos maradjon ki egy körbõl. Két fajta item legyen passzív és aktív. Ha a játékos egyiket sem szeretné használni, akkor legyen egy olyan lehetõség, hogy kimarad egy körbõl.
-Felhasználó  |K3 |Tapasztalati pont     |0.4 verzió
-A felhasználó szintjét határozza meg a tapasztalati pontja.
-Karakter     |K6 |Karakter tulajdonságok|0.4 verzió
+6. KÃ¶vetelmÃ©nylista
+Modul        |ID |NÃ©v                   |VerziÃ³szÃ¡m |KifejtÃ©s
+BejelentkezÃ©s|K1 |BelÃ©pÃ©s               |0.1 verziÃ³
+A jÃ¡tÃ©kos a felhasznÃ¡lÃ³ neve Ã©s a jelszava alapjÃ¡n lÃ©phet be a jÃ¡tÃ©kba.
+Karakter     |K5 |Karakter adatai       |0.1 verziÃ³
+A karaktereknek legyenek Ã©leterejÃ¼k Ã©s manÃ¡juk.
+JÃ¡tÃ©k        |K10|Harcok folyamata      |0.1 verziÃ³
+A harcok sorÃ¡n a jÃ¡tÃ©kos kÃ¶rÃ¶nkÃ©nt tudjon goldot kapni, emelett pedig eldÃ¶ntheti, hogy skilleket vagy itemet vagy esetleg ezek kÃ¶zÃ¼l egyiket sem vÃ¡lasztja.
+FelhasznÃ¡lÃ³  |K2 |Gold                  |0.2 verziÃ³
+A felhasznÃ¡lÃ³ rendelkezik golddal, amibÅ‘l hÅ‘sÃ¶ket tud venni.
+CsatÃ¡k       |K16|Bot jÃ¡tÃ©kosok         |0.2 verziÃ³
+Bot meccses csatÃ¡k.
+FelhasznÃ¡lÃ³  |K4 |Karakter szerzÃ©s      |0.2 verziÃ³
+ElsÅ‘ bejelentkezÃ©skor a felhasznÃ¡lÃ³nak 5 vÃ©letlenszerÅ±en megjelenÅ‘ karakter kÃ¶zÃ¼l kell vÃ¡lasztania kettÅ‘t. Eleinte a jÃ¡tÃ©kos ezzel a kettÅ‘ karakterrel jÃ¡tszhat, majd kÃ©sÅ‘bb vehet tÃ¶bbet, amiÃ©rt golddal fizethet.
+Karakter     |K7 |Karakter kÃ©pessÃ©gek   |0.2 verziÃ³
+A karaktereknek 4 alapkÃ©pessÃ©ge van.
+JÃ¡tÃ©k        |K11|VÃ©gkimenetele         |0.3 verziÃ³
+A harcok addig tartsanak, mÃ­g az egyik karakter meg nem hal vagy mÃ­g az egyik jÃ¡tÃ©kos fel nem adja. A gyÅ‘ztes kapjon goldot Ã©s xp-t, mÃ­g a vesztes csak xp-t kapjon.
+Itemek       |K12|Cooldown              |0.3 verziÃ³
+A skilleknek legyen cooldownja, az elsÅ‘t minden kÃ¶rben lehessen hasznÃ¡lni, a mÃ¡sodikat minden mÃ¡sodik kÃ¶rben Ã©s ez Ã­gy nÃ¶vekedjen kÃ¶rÃ¶nkÃ©nt. AZ itemekbÅ‘l szÃ¡rmazÃ³ skilleket minden 3. kÃ¶rben Ãºjra fel lehessen hasznÃ¡lni.
+JÃ¡tÃ©k        |K9 |Gold szerzÃ©s          |0.3 verziÃ³
+Goldot a harcok sorÃ¡n kÃ¶rÃ¶nkÃ©nt lehessen szerezni.
+Itemek       |K13|Item                  |0.4 verziÃ³
+Item vÃ¡sÃ¡rlÃ¡sÃ¡nÃ¡l a jÃ¡tÃ©kos maradjon ki egy kÃ¶rbÅ‘l. KÃ©t fajta item legyen passzÃ­v Ã©s aktÃ­v. Ha a jÃ¡tÃ©kos egyiket sem szeretnÃ© hasznÃ¡lni, akkor legyen egy olyan lehetÅ‘sÃ©g, hogy kimarad egy kÃ¶rbÅ‘l.
+FelhasznÃ¡lÃ³  |K3 |Tapasztalati pont     |0.4 verziÃ³
+A felhasznÃ¡lÃ³ szintjÃ©t hatÃ¡rozza meg a tapasztalati pontja.
+Karakter     |K6 |Karakter tulajdonsÃ¡gok|0.4 verziÃ³
 A karakterek statja.
-Itemek       |K14|Passzív itemek        |0.5 verzió
-A passzív item növelje a statot.
-Itemek       |K15|Aktív itemek          |0.5 verzió
-Az aktív itemek egy új skillt adnak. 
-Karakter     |K8 |Karakter skinek       |0.5 verzió
-Karakterek mellett a játékosok skineket is vásárolhatnak, amik megváltoztatják a karakterük alap statját.
-Csaták       |K17|PVP játékmód          |0.6 verzió
-PVP játékmód bevezetése.
-Profilkép    |K18|Profilkép változtatás |0.6 verzió
-Egyedi profilkép készítése.
+Itemek       |K14|PasszÃ­v itemek        |0.5 verziÃ³
+A passzÃ­v item nÃ¶velje a statot.
+Itemek       |K15|AktÃ­v itemek          |0.5 verziÃ³
+Az aktÃ­v itemek egy Ãºj skillt adnak. 
+Karakter     |K8 |Karakter skinek       |0.5 verziÃ³
+Karakterek mellett a jÃ¡tÃ©kosok skineket is vÃ¡sÃ¡rolhatnak, amik megvÃ¡ltoztatjÃ¡k a karakterÃ¼k alap statjÃ¡t.
+CsatÃ¡k       |K17|PVP jÃ¡tÃ©kmÃ³d          |0.6 verziÃ³
+PVP jÃ¡tÃ©kmÃ³d bevezetÃ©se.
+ProfilkÃ©p    |K18|ProfilkÃ©p vÃ¡ltoztatÃ¡s |0.6 verziÃ³
+Egyedi profilkÃ©p kÃ©szÃ­tÃ©se.
  --------------------------------------------------------------------------------------------------------------------------------------
-7. Irányított és szabad szöveges riportok szövege
-->Írányított szöveges riport:
- A program a megadott határidõn belül, azaz körülbelül 3 hónapon belül elkészül. A játék készítésére 4 fejlesztõ áll rendelkésünkre, illetve segítõk az esetleges problémák megoldása véget.
- A fejlesztõket 2 csoportra osztjuk, ketten a webes, és ketten az androidos verzióval fognak komolyabban foglalkozni. A párosokat szintén szétosztjuk egy frontendes és egy backendes részre. A csoport hetente egyszer leül és közösen átbeszéli a már meglévõ folyamatokat, illetve azok tesztelését és az esetleges hibákat. Ha nem merülnek fel újabb kérdések, akkor a további feladatok és fejlesztések kerülnek elõtérbe.
- Ezenkívül plusz feladatnak minõsül a specifikációk megírása, azaz a program készítésének dokumentálása, illetve a játékhoz szükséges design tervek, karakterek, profilképek, képességek, itemek kidolgozása. 
-->Szabad szöveges riport:
- Célunk egy olyan program megvalósítása, amely már létezõ játékok stílusára épül. Egy olyan stratégiai játékot képzeltünk el, amelyben egyesül League of Legends-bõl és a Dota 2-bõl már ismert karakter felépítés és választás, a kártyajátékok kedvelõinek szánt Hearthstone harci szakasza, a TFT (Teamfight Tactics) item struktúrája és Mobile Legends: Bang Bang android stílusa, amelybõl egy új játék születik meg.
+7. IrÃ¡nyÃ­tott Ã©s szabad szÃ¶veges riportok szÃ¶vege
+->ÃrÃ¡nyÃ­tott szÃ¶veges riport:
+ A program a megadott hatÃ¡ridÅ‘n belÃ¼l, azaz kÃ¶rÃ¼lbelÃ¼l 3 hÃ³napon belÃ¼l elkÃ©szÃ¼l. A jÃ¡tÃ©k kÃ©szÃ­tÃ©sÃ©re 4 fejlesztÅ‘ Ã¡ll rendelkÃ©sÃ¼nkre, illetve segÃ­tÅ‘k az esetleges problÃ©mÃ¡k megoldÃ¡sa vÃ©get.
+ A fejlesztÅ‘ket 2 csoportra osztjuk, ketten a webes, Ã©s ketten az androidos verziÃ³val fognak komolyabban foglalkozni. A pÃ¡rosokat szintÃ©n szÃ©tosztjuk egy frontendes Ã©s egy backendes rÃ©szre. A csoport hetente egyszer leÃ¼l Ã©s kÃ¶zÃ¶sen Ã¡tbeszÃ©li a mÃ¡r meglÃ©vÅ‘ folyamatokat, illetve azok tesztelÃ©sÃ©t Ã©s az esetleges hibÃ¡kat. Ha nem merÃ¼lnek fel Ãºjabb kÃ©rdÃ©sek, akkor a tovÃ¡bbi feladatok Ã©s fejlesztÃ©sek kerÃ¼lnek elÅ‘tÃ©rbe.
+ EzenkÃ­vÃ¼l plusz feladatnak minÅ‘sÃ¼l a specifikÃ¡ciÃ³k megÃ­rÃ¡sa, azaz a program kÃ©szÃ­tÃ©sÃ©nek dokumentÃ¡lÃ¡sa, illetve a jÃ¡tÃ©khoz szÃ¼ksÃ©ges design tervek, karakterek, profilkÃ©pek, kÃ©pessÃ©gek, itemek kidolgozÃ¡sa. 
+->Szabad szÃ¶veges riport:
+ CÃ©lunk egy olyan program megvalÃ³sÃ­tÃ¡sa, amely mÃ¡r lÃ©tezÅ‘ jÃ¡tÃ©kok stÃ­lusÃ¡ra Ã©pÃ¼l. Egy olyan stratÃ©giai jÃ¡tÃ©kot kÃ©pzeltÃ¼nk el, amelyben egyesÃ¼l League of Legends-bÅ‘l Ã©s a Dota 2-bÅ‘l mÃ¡r ismert karakter felÃ©pÃ­tÃ©s Ã©s vÃ¡lasztÃ¡s, a kÃ¡rtyajÃ¡tÃ©kok kedvelÅ‘inek szÃ¡nt Hearthstone harci szakasza, a TFT (Teamfight Tactics) item struktÃºrÃ¡ja Ã©s Mobile Legends: Bang Bang android stÃ­lusa, amelybÅ‘l egy Ãºj jÃ¡tÃ©k szÃ¼letik meg.
  --------------------------------------------------------------------------------------------------------------------------------------
-8. Fogalomszótár
-- Android: Az Android Linux kernelt használó mobil operációs rendszer, elsõsorban érintõképernyõs mobil eszközökre (okostelefon, táblagép) tervezve.
-- Bot: A bot kifejezés a robot szóból alakult ki, egyszerûsödött. Egy bot (más néven: számítógépes bot, internetes bot, szoftveres bot, web bot), egy olyan szoftver, amely automatizált feladatokat hajt végre meghatározott algoritmus szerint, interneten keresztül. Jellemzõen a botok egyszerû és szerkezetileg ismétlõdõ feladatokat hajtanak végre, sokkal nagyobb hatásfokkal, mint amennyire egy ember képes lenne. Ezen játék esetén a botok játékosokat jelentenek, amelyek ellen lehet játszani, hogy megtanulj használni egy-egy karaktert.
-- Cooldown: Az az idõ, aminek el kell telnie hogy egy képességet újra használhassunk.
-- Design: A formatervezés, ipari formatervezés vagy dizájn az iparmûvészeten belül mindazon tevékenység, amely az iparilag elõállított tárgyi világ formai-esztétikai kialakításával foglalkozik. Maga a kifejezés a második világháború utáni idõszakban alakult ki. A formatervezés ötvözi az esztétikát, a formát, a funkcionalitást, és innovatív módon kiemeli a tárgya egyedi tulajdonságait. 
-- ID: Kötelezõ. Ezzel a rövid azonosítóval hivatkozhatunk a követelményre minden dokumentációban, megjegyzésben. Általában egy sorszám, pl.: K1, K2, … .
-- Item: A harcok során a karaktereknek vehetõ tárgyak.
-- Kifejtés: Kötelezõ. A követelmény 2-3 mondatos, esetleg ennél is hosszabb kifejtése. Önállóan is értelmes. Megjegyzéseket tartalmazhat a programozóknak, tesztelõknek, vagy más szerepkörû olvasóknak.
-- Modul: Nem kötelezõ, itt adhatjuk meg, hogy a követelmény melyik nagy modulhoz /komponenshez tartozik. Ennek segítségével már a tervezés legelején komponensekre bonthatjuk a rendszert.
-- Név: Kötelezõ. A követelmény 2-3 szavas megfogalmazása. Önmagában nem feltétlenülértelmes, de beszédes.
-- PVP: (Player vs. Player) – lehetõség arra, hogy a játékosok megtámadják egymást, fõleg RPG típusú játékokban van külön kiemelve a pvp lehetõség.
-- Skin: Karakterek különféle kinézetei, amelyek javítják vagy épp rontják a statját.
+8. FogalomszÃ³tÃ¡r
+- Android: Az Android Linux kernelt hasznÃ¡lÃ³ mobil operÃ¡ciÃ³s rendszer, elsÅ‘sorban Ã©rintÅ‘kÃ©pernyÅ‘s mobil eszkÃ¶zÃ¶kre (okostelefon, tÃ¡blagÃ©p) tervezve.
+- Bot: A bot kifejezÃ©s a robot szÃ³bÃ³l alakult ki, egyszerÅ±sÃ¶dÃ¶tt. Egy bot (mÃ¡s nÃ©ven: szÃ¡mÃ­tÃ³gÃ©pes bot, internetes bot, szoftveres bot, web bot), egy olyan szoftver, amely automatizÃ¡lt feladatokat hajt vÃ©gre meghatÃ¡rozott algoritmus szerint, interneten keresztÃ¼l. JellemzÅ‘en a botok egyszerÅ± Ã©s szerkezetileg ismÃ©tlÅ‘dÅ‘ feladatokat hajtanak vÃ©gre, sokkal nagyobb hatÃ¡sfokkal, mint amennyire egy ember kÃ©pes lenne. Ezen jÃ¡tÃ©k esetÃ©n a botok jÃ¡tÃ©kosokat jelentenek, amelyek ellen lehet jÃ¡tszani, hogy megtanulj hasznÃ¡lni egy-egy karaktert.
+- Cooldown: Az az idÅ‘, aminek el kell telnie hogy egy kÃ©pessÃ©get Ãºjra hasznÃ¡lhassunk.
+- Design: A formatervezÃ©s, ipari formatervezÃ©s vagy dizÃ¡jn az iparmÅ±vÃ©szeten belÃ¼l mindazon tevÃ©kenysÃ©g, amely az iparilag elÅ‘Ã¡llÃ­tott tÃ¡rgyi vilÃ¡g formai-esztÃ©tikai kialakÃ­tÃ¡sÃ¡val foglalkozik. Maga a kifejezÃ©s a mÃ¡sodik vilÃ¡ghÃ¡borÃº utÃ¡ni idÅ‘szakban alakult ki. A formatervezÃ©s Ã¶tvÃ¶zi az esztÃ©tikÃ¡t, a formÃ¡t, a funkcionalitÃ¡st, Ã©s innovatÃ­v mÃ³don kiemeli a tÃ¡rgya egyedi tulajdonsÃ¡gait. 
+- ID: KÃ¶telezÅ‘. Ezzel a rÃ¶vid azonosÃ­tÃ³val hivatkozhatunk a kÃ¶vetelmÃ©nyre minden dokumentÃ¡ciÃ³ban, megjegyzÃ©sben. ÃltalÃ¡ban egy sorszÃ¡m, pl.: K1, K2, Â… .
+- Item: A harcok sorÃ¡n a karaktereknek vehetÅ‘ tÃ¡rgyak.
+- KifejtÃ©s: KÃ¶telezÅ‘. A kÃ¶vetelmÃ©ny 2-3 mondatos, esetleg ennÃ©l is hosszabb kifejtÃ©se. Ã–nÃ¡llÃ³an is Ã©rtelmes. MegjegyzÃ©seket tartalmazhat a programozÃ³knak, tesztelÅ‘knek, vagy mÃ¡s szerepkÃ¶rÅ± olvasÃ³knak.
+- Modul: Nem kÃ¶telezÅ‘, itt adhatjuk meg, hogy a kÃ¶vetelmÃ©ny melyik nagy modulhoz /komponenshez tartozik. Ennek segÃ­tsÃ©gÃ©vel mÃ¡r a tervezÃ©s legelejÃ©n komponensekre bonthatjuk a rendszert.
+- NÃ©v: KÃ¶telezÅ‘. A kÃ¶vetelmÃ©ny 2-3 szavas megfogalmazÃ¡sa. Ã–nmagÃ¡ban nem feltÃ©tlenÃ¼lÃ©rtelmes, de beszÃ©des.
+- PVP: (Player vs. Player) Â– lehetÅ‘sÃ©g arra, hogy a jÃ¡tÃ©kosok megtÃ¡madjÃ¡k egymÃ¡st, fÅ‘leg RPG tÃ­pusÃº jÃ¡tÃ©kokban van kÃ¼lÃ¶n kiemelve a pvp lehetÅ‘sÃ©g.
+- Skin: Karakterek kÃ¼lÃ¶nfÃ©le kinÃ©zetei, amelyek javÃ­tjÃ¡k vagy Ã©pp rontjÃ¡k a statjÃ¡t.
 - Stat: Karakterek alap adatai.
-- UML: Az UML (Unified Modeling Language) szabványos, általános célú modellezõ nyelv, üzleti elemzõk, rendszertervezõk, szoftvermérnökök számára.
-- User: Felhasználó.
-- V.: Nem kötelezõ. Annak a verziónak a száma, ahol szeretnénk, ha már ez a követelmény ki lenne fejtve. A 0.1. verzió a legkisebb. Ezt az architekturális követelményeknek tartjuk fenn. Az 1.0. verzió, illetve ez alattiak a reális elvárások, az e felettiek vágyálom, vagy reálisan csak késõbbi verzióban elérhetõ követelmények. Az itt megadott verziók az ütemtervben még felülbírálhatók a prioritás segítségével.
-- Web: A világháló (angol eredetiben World Wide Web, WWW vagy röviden Web) az interneten mûködõ, egymással úgynevezett hiperhivatkozásokkal összekötött dokumentumok rendszere.
-- XP (Experience Point): Tapasztalati pont szintlépéshez.s
+- UML: Az UML (Unified Modeling Language) szabvÃ¡nyos, Ã¡ltalÃ¡nos cÃ©lÃº modellezÅ‘ nyelv, Ã¼zleti elemzÅ‘k, rendszertervezÅ‘k, szoftvermÃ©rnÃ¶kÃ¶k szÃ¡mÃ¡ra.
+- User: FelhasznÃ¡lÃ³.
+- V.: Nem kÃ¶telezÅ‘. Annak a verziÃ³nak a szÃ¡ma, ahol szeretnÃ©nk, ha mÃ¡r ez a kÃ¶vetelmÃ©ny ki lenne fejtve. A 0.1. verziÃ³ a legkisebb. Ezt az architekturÃ¡lis kÃ¶vetelmÃ©nyeknek tartjuk fenn. Az 1.0. verziÃ³, illetve ez alattiak a reÃ¡lis elvÃ¡rÃ¡sok, az e felettiek vÃ¡gyÃ¡lom, vagy reÃ¡lisan csak kÃ©sÅ‘bbi verziÃ³ban elÃ©rhetÅ‘ kÃ¶vetelmÃ©nyek. Az itt megadott verziÃ³k az Ã¼temtervben mÃ©g felÃ¼lbÃ­rÃ¡lhatÃ³k a prioritÃ¡s segÃ­tsÃ©gÃ©vel.
+- Web: A vilÃ¡ghÃ¡lÃ³ (angol eredetiben World Wide Web, WWW vagy rÃ¶viden Web) az interneten mÅ±kÃ¶dÅ‘, egymÃ¡ssal Ãºgynevezett hiperhivatkozÃ¡sokkal Ã¶sszekÃ¶tÃ¶tt dokumentumok rendszere.
+- XP (Experience Point): Tapasztalati pont szintlÃ©pÃ©shez.s
