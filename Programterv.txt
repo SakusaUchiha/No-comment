@@ -1,4 +1,4 @@
-                                                  #0. Programterv leíró változata:
+                                                  0. Programterv leíró változata:
 
         Játék android verziójának részletes leírása:
 A játék androidos felülete az Android Studio 3.5.3-as verziójával készül. A fejlesztés két szakaszra bonható, a backendre és a frontendre. A játék a Sakoshi nevet kapta a 0.1-es verzióban.
