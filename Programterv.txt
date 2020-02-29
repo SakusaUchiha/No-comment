@@ -59,7 +59,7 @@ A játék androidos felülete az Android Studio 3.5.3-as verziójával készül.
   - A további körökben lehetőség van itemeket vásárolni.
   - A játék addig tart, amíg az egyik fél fel nem adja a harcot vagy az egyik karakter meg nem hal. Ezt követően a program visszatér a főprogramba és láthatóvá válik egy meccsvégi összefoglaló felülete a játéknak.
  
-                                             1.Programterv programozási változata:
+                                             1.Programterv FRONTENDES változata:
         
         Játék android verziójának részletes programozási folyamata:
 A játék androidos felülete az Android Studio 3.5.3-as verziójával készül. A fejlesztés két szakaszra bonható, a backendre és a frontendre. A játék a Sakoshi nevet kapta a 0.1-es verzióban.
@@ -133,3 +133,6 @@ A játék androidos felülete az Android Studio 3.5.3-as verziójával készül.
                     EGYSZERRE EGY FELHASZNÁLÓ CSAK EGY ESZKÖZÖK LEHET BEJELENTKEZVE.
  --------------------------------------------------------------------------------------------------------------------------------------- 
     3.Játék
+
+
+                                             1.Programterv BACKENDES változata:
